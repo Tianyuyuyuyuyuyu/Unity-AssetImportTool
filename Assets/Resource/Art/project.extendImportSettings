@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <settings>
+    <Setting typeName="AssetImportTool.DefaultTextureImporter" isEnabled="true">
+      <properties>
+        <Property isEnabled="true" name="textureType" value="Sprite" />
+        <Property isEnabled="true" name="maxTextureSize" value="1024" />
+        <Property isEnabled="true" name="isReadable" value="False" />
+      </properties>
+    </Setting>
+  </settings>
+</Settings>
