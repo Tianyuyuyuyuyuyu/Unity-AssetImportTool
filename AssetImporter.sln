@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{C9EE562E-C099-714F-4064-C5FEC808210A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssetImporter.Editor", "AssetImporter.Editor.csproj", "{4B492A15-EE32-EA71-73B7-845F587844D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{07616517-2210-CC5F-BEC6-E201C37DB85F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer", "Sirenix.OdinInspector.CompatibilityLayer.csproj", "{C9EE562E-C099-714F-4064-C5FEC808210A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sirenix.OdinInspector.CompatibilityLayer.Editor", "Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj", "{74D5AD2E-30C9-D760-6DE3-9DD080B02815}"
 EndProject
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B492A15-EE32-EA71-73B7-845F587844D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B492A15-EE32-EA71-73B7-845F587844D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B492A15-EE32-EA71-73B7-845F587844D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B492A15-EE32-EA71-73B7-845F587844D0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C9EE562E-C099-714F-4064-C5FEC808210A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C9EE562E-C099-714F-4064-C5FEC808210A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9EE562E-C099-714F-4064-C5FEC808210A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9EE562E-C099-714F-4064-C5FEC808210A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{07616517-2210-CC5F-BEC6-E201C37DB85F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{07616517-2210-CC5F-BEC6-E201C37DB85F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{07616517-2210-CC5F-BEC6-E201C37DB85F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{07616517-2210-CC5F-BEC6-E201C37DB85F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{74D5AD2E-30C9-D760-6DE3-9DD080B02815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{74D5AD2E-30C9-D760-6DE3-9DD080B02815}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74D5AD2E-30C9-D760-6DE3-9DD080B02815}.Release|Any CPU.ActiveCfg = Release|Any CPU

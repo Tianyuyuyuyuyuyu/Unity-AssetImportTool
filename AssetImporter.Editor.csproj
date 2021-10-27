@@ -9,10 +9,10 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C9EE562E-C099-714F-4064-C5FEC808210A}</ProjectGuid>
+    <ProjectGuid>{4B492A15-EE32-EA71-73B7-845F587844D0}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <AssemblyName>Sirenix.OdinInspector.CompatibilityLayer</AssemblyName>
+    <AssemblyName>AssetImporter.Editor</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <BaseDirectory>.</BaseDirectory>
@@ -26,7 +26,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>pdbonly</DebugType>
@@ -35,7 +35,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup>
     <NoConfig>true</NoConfig>
@@ -48,7 +48,7 @@
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
     <UnityProjectGeneratorVersion>4.10.3.0</UnityProjectGeneratorVersion>
-    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityProjectType>Editor:5</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2019.4.9f1</UnityVersion>
   </PropertyGroup>
@@ -64,9 +64,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\SerializedNetworkBehaviour.cs" />
-    <Compile Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\VectorIntFormatters.cs" />
-    <None Include="Assets\Plugins\Sirenix\Odin Inspector\Scripts\Sirenix.OdinInspector.CompatibilityLayer.asmdef" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\CustomImporter\CopyAssetImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultAudioImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultIHVImageFormatImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultModelImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultMonoImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultPluginImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultShaderImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultSketchUpImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultSpeedTreeImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultTextureImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultTrueTypeFontImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporter\DefaultVideoClipImporter.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DefaultImporterCreater\DefaultImporterCreater.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\DirectoryInspector.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\IAssetImporterExtension.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\IDrawDirectoryInspector.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\InspectorWindow.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\PostProcessor.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\Settings.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\SettingsIO.cs" />
+    <Compile Include="Assets\Scripts\Editor\AssetImporterExtension\Utility.cs" />
+    <None Include="Assets\Scripts\Editor\AssetImporter.Editor.asmdef" />
     <Reference Include="UnityEngine">
       <HintPath>D:/software/UnityVersion/2019.4.9f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
